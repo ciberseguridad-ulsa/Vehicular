@@ -1,0 +1,11 @@
+[2024-06-01 17:48:44] glpiphplog.WARNING: Test logger  
+[2024-06-20 17:00:35] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in C:\laragon\www\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  ajax\dashboard.php:188                             Glpi\Dashboard\Dashboard->canViewCurrent()
+  
+[2024-06-20 17:00:35] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "card_id" in C:\laragon\www\glpi\ajax\dashboard.php at line 194  
+[2024-06-20 17:00:35] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Dashboard\Grid::getCardHtml(): Argument #1 ($card_id) must be of type string, null given, called in C:\laragon\www\glpi\ajax\dashboard.php on line 194 in C:\laragon\www\glpi\src\Dashboard\Grid.php at line 883
+  Backtrace :
+  ajax\dashboard.php:194                             Glpi\Dashboard\Grid->getCardHtml()
+  
+[2024-06-28 20:45:17] glpiphplog.WARNING: Test logger  
