@@ -746,3 +746,205 @@ Interno #1: Ejecutar slaticket
 Interno #1: Ejecutar queuednotification
 2024-06-29 14:39:18 [2@ULSA-B103-P01]
 Interno #1: Ejecutar olaticket
+2024-06-29 22:25:30 [@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall
+2024-07-06 17:01:11 [@ULSA-B103-P01]
+Interno #1: Ejecutar graph
+2024-07-08 15:20:36 [@ULSA-B103-P01]
+Interno #1: Ejecutar reservation
+2024-07-08 15:20:47 [@ULSA-B103-P01]
+Interno #1: Ejecutar RecurrentItems
+2024-07-08 15:21:54 [@ULSA-B103-P01]
+Interno #1: Ejecutar temp
+2024-07-08 16:29:12 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgate
+2024-07-08 17:00:45 [2@ULSA-B103-P01]
+Interno #1: Ejecutar slaticket
+2024-07-08 17:11:44 [2@ULSA-B103-P01]
+Interno #1: Ejecutar certificate
+2024-07-08 17:47:57 [2@ULSA-B103-P01]
+Interno #1: Ejecutar closeticket
+2024-07-08 19:53:46 [2@ULSA-B103-P01]
+Interno #1: Ejecutar alertnotclosed
+2024-07-08 21:14:53 [2@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotification
+2024-07-12 19:57:42 [@ULSA-B103-P01]
+Interno #1: Ejecutar olaticket
+2024-07-12 20:07:48 [2@ULSA-B103-P01]
+Interno #1: Ejecutar contract
+2024-07-12 20:27:23 [2@ULSA-B103-P01]
+Interno #1: Ejecutar infocom
+2024-07-12 20:35:29 [2@ULSA-B103-P01]
+Interno #1: Ejecutar session
+2024-07-12 20:41:32 [2@ULSA-B103-P01]
+Interno #1: Ejecutar createinquest
+2024-07-12 20:47:13 [2@ULSA-B103-P01]
+Interno #1: Ejecutar watcher
+2024-07-12 20:49:36 [@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotificationclean
+2024-07-15 16:31:42 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgateerror
+2024-07-15 16:39:13 [@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall
+2024-07-15 16:39:38 [@ULSA-B103-P01]
+Interno #1: Ejecutar graph
+2024-07-15 16:40:32 [@ULSA-B103-P01]
+Interno #1: Ejecutar reservation
+2024-07-15 16:40:33 [@ULSA-B103-P01]
+Interno #1: Ejecutar RecurrentItems
+2024-07-15 16:43:45 [@ULSA-B103-P01]
+Interno #1: Ejecutar temp
+2024-07-15 16:57:21 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgate
+2024-07-15 17:08:08 [@ULSA-B103-P01]
+Interno #1: Ejecutar slaticket
+2024-07-15 17:14:18 [@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotification
+2024-07-15 17:15:09 [@ULSA-B103-P01]
+Interno #1: Ejecutar closeticket
+2024-07-15 17:15:20 [@ULSA-B103-P01]
+Interno #1: Ejecutar alertnotclosed
+2024-07-15 17:15:31 [@ULSA-B103-P01]
+Interno #1: Ejecutar certificate
+2024-07-15 17:16:11 [@ULSA-B103-P01]
+Interno #1: Ejecutar olaticket
+2024-07-15 17:28:59 [2@ULSA-B103-P01]
+Interno #1: Ejecutar contract
+2024-07-15 17:29:37 [@ULSA-B103-P01]
+Interno #1: Ejecutar infocom
+2024-07-15 17:34:53 [@ULSA-B103-P01]
+Interno #1: Ejecutar session
+2024-07-15 19:13:00 [2@ULSA-B103-P01]
+Interno #1: Ejecutar createinquest
+2024-07-15 22:01:50 [@ULSA-B103-P01]
+Interno #1: Lanzar watcher
+2024-07-15 23:05:49 [2@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotificationclean
+2024-07-17 22:26:05 [@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall
+2024-07-17 22:33:05 [2@ULSA-B103-P01]
+Interno #1: Ejecutar mailgate
+2024-07-17 22:33:55 [@ULSA-B103-P01]
+Interno #1: Ejecutar slaticket
+2024-07-17 22:33:59 [@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotification
+2024-07-17 22:34:00 [@ULSA-B103-P01]
+Interno #1: Ejecutar olaticket
+2024-07-17 22:39:17 [2@ULSA-B103-P01]
+Interno #1: Ejecutar graph
+2024-07-17 22:42:29 [@ULSA-B103-P01]
+Interno #1: Lanzar reservation
+2024-07-17 22:42:53 [@ULSA-B103-P01]
+Interno #1: Lanzar RecurrentItems
+2024-07-17 22:43:22 [@ULSA-B103-P01]
+Interno #1: Lanzar temp
+2024-07-17 22:57:03 [2@ULSA-B103-P01]
+Interno #1: Ejecutar closeticket
+2024-07-17 22:57:10 [@ULSA-B103-P01]
+Interno #1: Lanzar alertnotclosed
+2024-07-18 14:27:40 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgateerror
+2024-07-18 14:40:06 [2@ULSA-B103-P01]
+Interno #1: Ejecutar certificate
+2024-07-18 14:53:38 [2@ULSA-B103-P01]
+Interno #1: Ejecutar contract
+2024-07-18 15:07:51 [2@ULSA-B103-P01]
+Interno #1: Ejecutar infocom
+2024-07-18 17:00:14 [2@ULSA-B103-P01]
+Interno #1: Ejecutar session
+2024-07-18 17:26:41 [2@ULSA-B103-P01]
+Interno #1: Ejecutar createinquest
+2024-07-18 19:17:38 [2@ULSA-B103-P01]
+Interno #1: Ejecutar watcher
+2024-07-18 19:29:59 [2@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotificationclean
+2024-07-18 19:35:13 [2@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall
+2024-07-30 22:04:35 [@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotification
+2024-07-30 22:05:36 [@ULSA-B103-P01]
+Interno #1: Ejecutar slaticket
+2024-07-30 22:05:43 [@ULSA-B103-P01]
+Interno #1: Lanzar olaticket
+2024-07-30 22:06:07 [@ULSA-B103-P01]
+Interno #1: Lanzar mailgate
+2024-07-30 22:22:46 [2@ULSA-B103-P01]
+Interno #1: Ejecutar graph
+2024-07-30 22:28:30 [2@ULSA-B103-P01]
+Interno #1: Ejecutar reservation
+2024-07-30 22:33:54 [2@ULSA-B103-P01]
+Interno #1: Ejecutar RecurrentItems
+2024-07-30 22:40:39 [2@ULSA-B103-P01]
+Interno #1: Ejecutar temp
+2024-07-30 22:46:06 [2@ULSA-B103-P01]
+Interno #1: Ejecutar closeticket
+2024-07-30 23:13:50 [2@ULSA-B103-P01]
+Interno #1: Ejecutar alertnotclosed
+2024-07-31 20:31:19 [2@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall
+2024-07-31 22:49:24 [2@ULSA-B103-P01]
+Interno #1: Ejecutar mailgateerror
+2024-08-01 19:24:39 [2@ULSA-B103-P01]
+Interno #1: Ejecutar certificate
+2024-08-01 19:45:02 [2@ULSA-B103-P01]
+Interno #1: Ejecutar contract
+2024-08-01 23:00:30 [2@ULSA-B103-P01]
+Interno #1: Ejecutar infocom
+2024-08-01 23:00:33 [@ULSA-B103-P01]
+Interno #1: Ejecutar session
+2024-08-06 15:05:42 [@ULSA-B103-P01]
+Interno #1: Ejecutar createinquest
+2024-08-06 15:18:50 [@ULSA-B103-P01]
+Interno #1: Ejecutar watcher
+2024-08-06 15:18:55 [@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotificationclean
+2024-08-06 15:19:25 [@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotification
+2024-08-07 17:02:32 [@ULSA-B103-P01]
+Interno #1: Ejecutar slaticket
+2024-08-07 23:12:40 [@ULSA-B103-P01]
+Interno #1: Ejecutar olaticket
+2024-08-13 14:44:41 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgate
+2024-08-17 21:19:49 [@ULSA-B103-P01]
+Interno #1: Ejecutar graph
+2024-08-24 16:16:47 [@ULSA-B103-P01]
+Interno #1: Ejecutar reservation
+2024-08-24 16:27:04 [2@ULSA-B103-P01]
+Interno #1: Ejecutar RecurrentItems
+2024-08-24 16:32:06 [2@ULSA-B103-P01]
+Interno #1: Ejecutar temp
+2024-08-24 16:37:17 [2@ULSA-B103-P01]
+Interno #1: Ejecutar closeticket
+2024-08-24 16:58:29 [2@ULSA-B103-P01]
+Interno #1: Ejecutar alertnotclosed
+2024-08-24 17:07:45 [2@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall
+2024-08-24 17:09:44 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgateerror
+2024-08-24 17:09:45 [@ULSA-B103-P01]
+Interno #1: Ejecutar certificate
+2024-08-24 17:09:52 [@ULSA-B103-P01]
+Interno #1: Ejecutar contract
+2024-08-24 17:10:00 [@ULSA-B103-P01]
+Interno #1: Ejecutar infocom
+2024-08-24 17:49:07 [7@ULSA-B103-P01]
+Interno #1: Lanzar session
+2024-08-24 17:50:20 [2@ULSA-B103-P01]
+Interno #1: Ejecutar queuednotification
+2024-08-24 17:54:29 [7@ULSA-B103-P01]
+Interno #1: Lanzar createinquest
+2024-08-24 17:58:00 [2@ULSA-B103-P01]
+Interno #1: Ejecutar watcher
+2024-08-24 18:01:51 [7@ULSA-B103-P01]
+Interno #1: Lanzar queuednotificationclean
+2024-08-24 18:07:31 [2@ULSA-B103-P01]
+Interno #1: Ejecutar slaticket
+2024-08-24 18:07:33 [7@ULSA-B103-P01]
+Interno #1: Lanzar olaticket
+2024-08-24 19:57:19 [@ULSA-B103-P01]
+Interno #1: Ejecutar mailgate
+2024-08-24 20:27:47 [2@ULSA-B103-P01]
+Interno #1: Ejecutar graph
+2024-08-24 22:12:01 [@ULSA-B103-P01]
+Interno #1: Ejecutar planningrecall

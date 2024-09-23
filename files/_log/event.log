@@ -156,3 +156,73 @@
 [login] 3: glpi  inicio de sesión desde IP ::1
 2024-06-29 14:30:22 [@ULSA-B103-P01]
 [login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-08 15:20:45 [@ULSA-B103-P01]
+[login] 3: Fallo en el acceso de glpi desde la IP ::1
+2024-07-08 15:20:51 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-08 16:29:20 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-12 19:57:51 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-15 16:45:55 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-15 17:05:41 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-15 17:16:32 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-15 17:40:50 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-17 22:25:02 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-17 22:26:13 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-17 22:30:29 [2@ULSA-B103-P01]
+[setup] [Plugin 92] 3: El complemento Gestión de objetos ha sido instalado por glpi (2).
+2024-07-17 22:30:31 [2@ULSA-B103-P01]
+[setup] [Plugin 93] 3: El complemento Gestión de objetos ha sido activado por glpi (2).
+2024-07-17 22:34:04 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-17 22:42:33 [@ULSA-B103-P01]
+[login] 3: glpi inicia sesión desde la IP ::1
+2024-07-17 22:43:26 [@ULSA-B103-P01]
+[login] 3: glpi inicia sesión desde la IP ::1
+2024-07-17 22:57:14 [@ULSA-B103-P01]
+[login] 3: glpi inicia sesión desde la IP ::1
+2024-07-18 14:27:45 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-30 22:04:40 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-30 22:05:46 [@ULSA-B103-P01]
+[login] 3: glpi inicia sesión desde la IP ::1
+2024-07-30 22:07:26 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-07-31 17:02:11 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-08-01 19:14:14 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-08-07 17:02:35 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-08-13 14:53:30 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-08-17 19:18:38 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-08-24 16:16:52 [@ULSA-B103-P01]
+[login] 3: glpi  inicio de sesión desde IP ::1
+2024-08-24 16:28:35 [2@ULSA-B103-P01]
+[setup] [Plugin 111] 3: El complemento Form Creator ha sido instalado por glpi (2).
+2024-08-24 16:28:37 [2@ULSA-B103-P01]
+[setup] [Plugin 112] 3: El complemento Form Creator ha sido activado por glpi (2).
+2024-08-24 17:01:57 [7@ULSA-B103-P01]
+[Impersonate] 3: glpi comienza a hacerse pasar por el usuario usuario
+2024-08-24 17:02:06 [2@ULSA-B103-P01]
+[Impersonate] 3: glpi deja de hacerse pasar por el usuario usuario
+2024-08-24 17:08:48 [7@ULSA-B103-P01]
+[Impersonate] 3: glpi comienza a hacerse pasar por el usuario usuario
+2024-08-24 17:09:25 [2@ULSA-B103-P01]
+[Impersonate] 3: glpi deja de hacerse pasar por el usuario usuario
+2024-08-24 17:09:50 [@ULSA-B103-P01]
+[login] 3: Fallo en el acceso de user desde la IP ::1
+2024-08-24 17:09:57 [@ULSA-B103-P01]
+[login] 3: Fallo en el acceso de usuario desde la IP ::1
+2024-08-24 17:10:23 [@ULSA-B103-P01]
+[login] 3: usuario  inicio de sesión desde IP ::1

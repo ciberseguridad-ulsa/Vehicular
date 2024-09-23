@@ -32,3 +32,17 @@ CSRF check failed for User ID: 2 at /glpi/ajax/central.php
 CSRF check failed for User ID: 2 at /glpi/ajax/central.php
 2024-06-25 19:40:13 [2@ULSA-B103-P01]
 CSRF check failed for User ID: 2 at /glpi/ajax/central.php
+2024-08-24 17:09:03 [7@ULSA-B103-P01]
+User ID: 7 tried to access or perform an action on /glpi/marketplace/formcreator/ajax/question.php with insufficient rights. Additional information: User is missing the 2 (UPDATE) right for entity
+	Stack Trace:
+		C:\laragon\www\glpi\src\Session.php:1124 displayRightError()
+		C:\laragon\www\glpi\marketplace\formcreator\ajax\question.php:33 checkRight()
+2024-08-24 17:09:16 [7@ULSA-B103-P01]
+User ID: 7 tried to access or perform an action on /glpi/marketplace/formcreator/front/form.form.php?id=1 with insufficient rights. Additional information: User is missing the 2 (UPDATE) right for entity
+	Stack Trace:
+		C:\laragon\www\glpi\src\Session.php:1124 displayRightError()
+		C:\laragon\www\glpi\marketplace\formcreator\front\form.form.php:129 checkRight()
+2024-08-24 17:09:19 [7@ULSA-B103-P01]
+CSRF check failed for User ID: 7 at /glpi/front/user.form.php
+2024-08-24 17:09:23 [7@ULSA-B103-P01]
+CSRF check failed for User ID: 7 at /glpi/front/user.form.php

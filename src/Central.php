@@ -49,7 +49,8 @@ class Central extends CommonGLPI
     {
 
        // No plural
-        return __('Standard interface');
+       //return __('Standard interface');
+        return __('Inicio');
     }
 
 

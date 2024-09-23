@@ -51,7 +51,7 @@ class __TwigTemplate_083a641317b5963a33757fcf44518bf6 extends Template
    <title>";
         // line 38
         echo twig_escape_filter($this->env, ($context["title"] ?? null), "html", null, true);
-        echo " - GLPI</title>
+        echo " - Flota</title>
 
    <meta charset=\"utf-8\" />
 

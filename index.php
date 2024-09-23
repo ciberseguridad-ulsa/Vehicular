@@ -138,7 +138,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
         'rand'                => $rand,
         'card_bg_width'       => true,
         'lang'                => $CFG_GLPI["languages"][$_SESSION['glpilanguage']][3],
-        'title'               => __('Authentication'),
+        'title'               => __('Login'),
         'noAuto'              => $_GET["noAUTO"] ?? 0,
         'redirect'            => $redirect,
         'text_login'          => $CFG_GLPI['text_login'],

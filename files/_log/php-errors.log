@@ -9,3 +9,13 @@
   ajax\dashboard.php:194                             Glpi\Dashboard\Grid->getCardHtml()
   
 [2024-06-28 20:45:17] glpiphplog.WARNING: Test logger  
+[2024-08-24 16:27:04] glpiphplog.WARNING:   *** PHP User Warning (512): plugin_version_formcreator-2.13.9 method must be defined! in C:\laragon\www\glpi\src\Plugin.php at line 1810
+  Backtrace :
+  src\Plugin.php:1810                                trigger_error()
+  src\Plugin.php:1848                                Plugin::getInfo()
+  src\Plugin.php:517                                 Plugin->getInformationsFromDirectory()
+  src\Plugin.php:786                                 Plugin->getPluginInformation()
+  src\Plugin.php:570                                 Plugin->getNewInfoAndDirBasedOnOldName()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  front\marketplace.php:43                           Plugin->checkStates()
+  

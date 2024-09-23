@@ -27075,8 +27075,8 @@ a.badge {
   background: var(--tblr-card-bg, #ffffff);
   border-radius: var(--tblr-card-border-radius);
   transition: transform 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out;
-  width: 460px;
-  height: 600px;
+  width: 560px;
+  height: 560px;
   margin-left: auto; /* Alinear a la derecha */
   margin-right: auto; /* Anular el margen a la izquierda */
 }
@@ -31136,6 +31136,7 @@ body.iframed, body.in_modal {
 }
 .page .glpi-logo {
   background: url("../pics/logos/logo-GLPI-100-white.png") no-repeat;
+  /*55x100*/
   height: 55px;
   width: 100px;
 }

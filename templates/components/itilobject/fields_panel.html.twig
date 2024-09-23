@@ -187,8 +187,8 @@
             </span>
 
             {{ include('components/itilobject/fields/status.html.twig') }}
-
-            {% if item.isField('requesttypes_id') %}
+            {#Quita fuente de solicitudes#}
+            {#{% if item.isField('requesttypes_id') %}
                {{ fields.dropdownField(
                   'RequestType',
                   'requesttypes_id',
@@ -201,9 +201,10 @@
                      }
                   })
                ) }}
-            {% endif %}
+            {% endif %}#}
 
-            {{ include('components/itilobject/fields/priority_matrix.html.twig') }}
+            {#Quitar los niveles de Urgencia, Impacto y Prioridad#}
+            {#{{ include('components/itilobject/fields/priority_matrix.html.twig') }}#}
 
             {% if item.isField('locations_id') %}
                {{ fields.dropdownField(
@@ -233,14 +234,15 @@
                ) }}
             {% endif %}
 
-            {% if item.getType() != 'Ticket' or item.isNewItem() %}
+            {#Quita Duracion total#}
+            {#{% if item.getType() != 'Ticket' or item.isNewItem() %}
                {{ fields.dropdownTimestampField(
                   'actiontime',
                   item.fields['actiontime'],
                   __('Total duration'),
                   field_options
                ) }}
-            {% endif %}
+            {% endif %}#}
 
             {{ include('components/itilobject/fields/global_validation.html.twig') }}
 
@@ -294,7 +296,8 @@
 
    {% if item.getType() == 'Ticket' %}
       {% set la_content %}
-         {{ include('components/itilobject/service_levels.html.twig') }}
+         {#Quita niveles de servicio#}
+         {#{{ include('components/itilobject/service_levels.html.twig') }}#}
       {% endset %}
 
       {% if la_content|trim|length > 0 %}
@@ -415,7 +418,8 @@
       </div>
    {% endif %}
 
-   {% if ticket_ticket %}
+   {#Quitar Linkeds Tickets#}
+   {#{% if ticket_ticket %}
       {% set linked_tickets_show = headers_states['linked_tickets'] is defined and headers_states['linked_tickets'] == "true" ? true : false %}
       <div class="accordion-item">
          <h2 class="accordion-header" id="linked_tickets-heading" title="{{ 'Ticket_Ticket'|itemtype_name(nb_linked_tickets) }}" data-bs-toggle="tooltip">
@@ -440,7 +444,7 @@
             </div>
          </div>
       </div>
-   {% endif %}
+   {% endif %}#}
 
     <span class="d-none d-md-block">
         <button type="button" class="switch-panel-width btn btn-icon btn-ghost-secondary position-absolute bottom-0 start-0 mb-2">
