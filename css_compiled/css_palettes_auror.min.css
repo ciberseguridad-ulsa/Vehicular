@@ -27067,6 +27067,7 @@ a.badge {
   transition: transform 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 .cardini {
+  align-items: center;
   position: relative;
   display: flex;
   --tblr-card-border-radius: 15px;
@@ -27075,8 +27076,8 @@ a.badge {
   background: var(--tblr-card-bg, #ffffff);
   border-radius: var(--tblr-card-border-radius);
   transition: transform 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out;
-  width: 560px;
-  height: 560px;
+  width: 450px;
+  height: 350px;
   margin-left: auto; /* Alinear a la derecha */
   margin-right: auto; /* Anular el margen a la izquierda */
 }
@@ -36764,8 +36765,8 @@ input.submit, .vsubmit {
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  background-color: #fec95c;
-  color: #1e293b;
+  background-color: #122c55;
+  color: #ffffff;
   border: 1px solid rgba(98, 105, 118, 0.24);
   border-radius: 4px;
   font-weight: 500;
@@ -36773,8 +36774,9 @@ input.submit, .vsubmit {
   padding: 0.4375rem 1rem;
 }
 input.submit:hover, .vsubmit:hover {
-  background: #e5b553;
-  border-color: #fec95c;
+  background: #334A71;
+  border-color: #122c55;
+  color: #ffffff;
 }
 input.submit.disabled, .vsubmit.disabled {
   cursor: not-allowed;

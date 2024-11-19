@@ -102,10 +102,14 @@ class __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41 extends Template
             </div>
             <div class=\"cardini card-md\">
                <div class=\"card-body content-cardini\">
-               ";
+                <h2 class=\"mx-auto\" style=\"text-align:center; color:#122c55; padding-bottom: 30px;\">";
         // line 70
-        $this->displayBlock('content_block', $context, $blocks);
+        echo twig_escape_filter($this->env, __("Flota Vehicular"), "html", null, true);
+        echo "</h2>
+               ";
         // line 71
+        $this->displayBlock('content_block', $context, $blocks);
+        // line 72
         echo "               </div>
             </div>
          </div>
@@ -113,21 +117,21 @@ class __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41 extends Template
    </div>
 
    ";
-        // line 77
-        $this->displayBlock('javascript_block', $context, $blocks);
         // line 78
+        $this->displayBlock('javascript_block', $context, $blocks);
+        // line 79
         echo "</body>
 </html>
 ";
     }
 
-    // line 70
+    // line 71
     public function block_content_block($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 77
+    // line 78
     public function block_javascript_block($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -154,7 +158,7 @@ class __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  131 => 77,  125 => 70,  119 => 78,  117 => 77,  109 => 71,  107 => 70,  92 => 62,  89 => 61,  86 => 60,  83 => 59,  80 => 58,  77 => 57,  74 => 56,  71 => 55,  69 => 54,  62 => 50,  59 => 49,  55 => 43,  53 => 42,  50 => 40,  48 => 38,  46 => 36,  44 => 35,  42 => 34,  39 => 33,);
+        return array (  135 => 78,  129 => 71,  123 => 79,  121 => 78,  113 => 72,  111 => 71,  107 => 70,  92 => 62,  89 => 61,  86 => 60,  83 => 59,  80 => 58,  77 => 57,  74 => 56,  71 => 55,  69 => 54,  62 => 50,  59 => 49,  55 => 43,  53 => 42,  50 => 40,  48 => 38,  46 => 36,  44 => 35,  42 => 34,  39 => 33,);
     }
 
     public function getSourceContext()

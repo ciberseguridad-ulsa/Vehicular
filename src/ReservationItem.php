@@ -455,12 +455,13 @@ class ReservationItem extends CommonDBChild
               "<a class='btn btn-secondary' href='reservation.php?reservationitems_id=0'>
                   <i class='far fa-calendar'></i>&nbsp;
                   " . __("View calendar for all items") . "
-               </a>
-               <a class='btn btn-secondary mw-100 d-inline-block text-truncate' onClick=\"javascript:showHideDiv('viewresasearch','','','');" .
+               </a></div>";
+
+               /*   <a class='btn btn-secondary mw-100 d-inline-block text-truncate' onClick=\"javascript:showHideDiv('viewresasearch','','','');" .
                 "showHideDiv('makesearch','','','')\">
                <i class='fas fa-search'></i>&nbsp;";
-            echo __('Find a free item in a specific period') . "</a></div>";
-
+            echo __('Find a free item in a specific period') . "</a></div>";*/
+            
             echo "<div id='viewresasearch' style=\"display:none;\" class='center'>";
             $begin_time                 = time();
             $begin_time                -= ($begin_time % HOUR_TIMESTAMP);

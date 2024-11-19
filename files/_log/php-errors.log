@@ -19,3 +19,1138 @@
   src\Plugin.php:505                                 Plugin->checkPluginState()
   front\marketplace.php:43                           Plugin->checkStates()
   
+[2024-09-26 19:55:18] glpiphplog.WARNING:   *** PHP User Warning (512): plugin_version_glpi-singlesignon-master method must be defined! in C:\laragon\www\glpi\src\Plugin.php at line 1810
+  Backtrace :
+  src\Plugin.php:1810                                trigger_error()
+  src\Plugin.php:1848                                Plugin::getInfo()
+  src\Plugin.php:517                                 Plugin->getInformationsFromDirectory()
+  src\Plugin.php:786                                 Plugin->getPluginInformation()
+  src\Plugin.php:570                                 Plugin->getNewInfoAndDirBasedOnOldName()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  front\marketplace.php:43                           Plugin->checkStates()
+  
+[2024-09-26 19:55:53] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\laragon\www\glpi\src\DBmysql.php at line 2142
+  Backtrace :
+  src\DBmysql.php:2142                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\singlesignon\hook.php:245              DBmysql->query()
+  src\Plugin.php:922                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax\marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2024-09-26 19:55:53] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_singlesignon_providers`.`id`. in C:\laragon\www\glpi\src\DBmysql.php at line 2180
+  Backtrace :
+  src\DBmysql.php:2180                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\singlesignon\hook.php:245              DBmysql->query()
+  src\Plugin.php:922                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax\marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2024-09-26 19:55:53] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\laragon\www\glpi\src\DBmysql.php at line 2142
+  Backtrace :
+  src\DBmysql.php:2142                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\singlesignon\hook.php:298              DBmysql->query()
+  src\Plugin.php:922                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax\marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2024-09-26 19:55:53] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\laragon\www\glpi\src\DBmysql.php at line 2142
+  Backtrace :
+  src\DBmysql.php:2142                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\singlesignon\hook.php:310              DBmysql->query()
+  src\Plugin.php:922                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax\marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2024-09-26 19:55:53] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_singlesignon_providers_users`.`id`. in C:\laragon\www\glpi\src\DBmysql.php at line 2180
+  Backtrace :
+  src\DBmysql.php:2180                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\singlesignon\hook.php:310              DBmysql->query()
+  src\Plugin.php:922                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax\marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2024-09-26 20:07:30] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  index.php:87                                       include()
+  
+[2024-09-26 20:07:30] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\cron.php:44                                  include()
+  
+[2024-09-26 20:08:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  index.php:87                                       include()
+  
+[2024-09-26 20:08:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\locale.php:49                                include()
+  
+[2024-09-26 20:08:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\locale.php:49                                include()
+  
+[2024-09-26 20:08:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\cron.php:44                                  include()
+  
+[2024-09-26 20:08:12] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\locale.php:49                                include()
+  
+[2024-09-26 20:08:18] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\login.php:48                                 include()
+  
+[2024-09-26 20:08:18] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\central.php:43                               include()
+  
+[2024-09-26 20:08:20] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\common.tabs.php:46                            include()
+  
+[2024-09-26 20:08:20] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:21] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:21] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:21] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:21] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:24] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:24] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:24] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:24] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  marketplace\genericobject\front\type.php:31        include()
+  
+[2024-09-26 20:08:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\marketplace.php:36                           include()
+  
+[2024-09-26 20:08:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  front\marketplace.php:43                           Plugin->checkStates()
+  
+[2024-09-26 20:08:25] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-26 20:08:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\common.tabs.php:46                            include()
+  
+[2024-09-26 20:08:26] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  src\Marketplace\View.php:216                       Plugin->init()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-09-26 20:08:29] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\marketplace.php:62                            include()
+  
+[2024-09-27 19:40:13] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  index.php:87                                       include()
+  
+[2024-09-27 19:40:15] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\cron.php:44                                  include()
+  
+[2024-09-27 19:40:22] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\login.php:48                                 include()
+  
+[2024-09-27 19:40:23] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\central.php:43                               include()
+  
+[2024-09-27 19:40:31] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\common.tabs.php:46                            include()
+  
+[2024-09-27 19:40:33] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:33] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:33] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:33] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:35] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:36] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:36] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:36] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:36] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:36] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:37] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:37] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:37] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:37] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:38] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:38] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:38] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:38] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:38] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\dashboard.php:38                              include()
+  
+[2024-09-27 19:40:44] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  front\marketplace.php:36                           include()
+  
+[2024-09-27 19:40:44] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  front\marketplace.php:43                           Plugin->checkStates()
+  
+[2024-09-27 19:40:45] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\common.tabs.php:46                            include()
+  
+[2024-09-27 19:40:45] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  src\Marketplace\View.php:216                       Plugin->init()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-09-27 19:40:51] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "singlesignon" information. in C:\laragon\www\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  src\Plugin.php:246                                 Plugin->checkStates()
+  inc\includes.php:98                                Plugin->init()
+  ajax\marketplace.php:62                            include()
+  
+[2024-09-28 16:43:48] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Usuario" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 195
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 16:43:48] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Usuario" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 195
+  Backtrace :
+  marketplace\singlesignon\hook.php:60               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 16:54:01] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "<i class="fa-brands fa-google"></i>" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 185
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 16:54:05] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "<i class="fa-brands fa-google"></i>" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 185
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 16:54:30] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "<i class="fa-brands fa-google"></i>" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 185
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 16:54:35] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "<i class="fa-brands fa-google"></i>" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 185
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 17:11:33] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "data:image/png;base64,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" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 187
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 17:11:35] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "data:image/png;base64,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" in C:\laragon\www\glpi\marketplace\singlesignon\inc\toolbox.class.php at line 187
+  Backtrace :
+  marketplace\singlesignon\hook.php:54               PluginSinglesignonToolbox::renderButton()
+  src\Plugin.php:1696                                plugin_singlesignon_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:226 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->block_content_block()
+  ...tes\76\762cb799d0f91d9446b30c2ae373e370.php:107 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_e3d2f64620b575c9a7a1b9e8c4d3aa41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\0a\0ab8fa81a6d3bf5f7afc1c5b79060176.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_af2861a3f8ef980fb3bf7a408f4647c6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:166                                      Glpi\Application\View\TemplateRenderer->display()
+  
+[2024-09-28 21:11:06] glpiphplog.WARNING: Failed to save key "{key}" of type null: rename(C:\laragon\www\glpi\files\_cache\translations-10.0.15\d25c2b63e86f,C:\laragon\www\glpi\files\_cache\translations-10.0.15\O\V\8PtBeu6hd1cq8E+w70dg): Acceso denegado (code: 5) {"key":"16a6e0544ae10abdd2aad8886be4f3f2de7b7dc3","exception":"[object] (ErrorException(code: 0): rename(C:\\laragon\\www\\glpi\\files\\_cache\\translations-10.0.15\\d25c2b63e86f,C:\\laragon\\www\\glpi\\files\\_cache\\translations-10.0.15\\O\\V\\8PtBeu6hd1cq8E+w70dg): Acceso denegado (code: 5) at C:\\laragon\\www\\glpi\\vendor\\symfony\\cache\\Traits\\FilesystemCommonTrait.php:117)","cache-adapter":"Symfony\\Component\\Cache\\Adapter\\FilesystemAdapter"} 
+[2024-10-05 17:27:38] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: syntax error, unexpected token "/" in C:\laragon\www\glpi\src\ReservationItem.php at line 460
+  Backtrace :
+  marketplace\genericobject\inc\object.class.php:486 glpi_autoload()
+  marketplace\genericobject\inc\object.class.php:186 PluginGenericobjectObject->canBeReserved()
+  marketplace\genericobject\setup.php:224            PluginGenericobjectObject::registerType()
+  src\Plugin.php:1696                                plugin_post_init_genericobject()
+  src\Plugin.php:276                                 Plugin::doHook()
+  inc\includes.php:98                                Plugin->init()
+  front\reservationitem.php:36                       include()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 465
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 465
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 473
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 473
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 473
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 473
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 484
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 484
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reservation_types" in C:\laragon\www\glpi\src\ReservationItem.php at line 548
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 637
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "reserve" in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-10-05 17:32:03] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\laragon\www\glpi\src\ReservationItem.php at line 638
+  Backtrace :
+  src\ReservationItem.php:973                        ReservationItem::showListSimple()
+  src\CommonGLPI.php:694                             ReservationItem::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
